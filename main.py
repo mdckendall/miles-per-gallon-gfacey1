@@ -1,5 +1,4 @@
-#your code here!
-
-#read in the miles and read in the gallons used.
-
-#display the miles per gallon
+miles_driven =float(input("How many miles have you driven? "))
+gallons_used = float(input("How many gallons have you used so far? "))
+MPG = miles_driven / gallons_used
+print("Miles per gallon:", MPG)
